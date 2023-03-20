@@ -1,4 +1,4 @@
-<img src='./src/assets/image.gif' alt='Filter by name'>
+<img src='./src/assets/image.gif' alt='Filter by name' style="border: 1px solid #ccc">
 
 # App Overview
 
