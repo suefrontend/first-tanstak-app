@@ -2,7 +2,7 @@
   "homepage": "https://suefrontend.github.io/first-tanstak-app",
   "name": "user-filter",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@tanstack/react-query": "^4.26.1",
     "@testing-library/jest-dom": "^5.16.5",
