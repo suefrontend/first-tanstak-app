@@ -22,8 +22,13 @@ function App() {
   // console.log("filteredUsers", filteredUsers);
   // console.log("data", data);
 
+  let content;
+  if (isLoading) return "Loading...";
+  if (isError) return `Error: ${error}`;
+
   return (
     <div className="container mx-auto">
+      {content}
       <h1 className="text-2xl font-bold text-center py-8">
         My First Tanstak Query App - User Name Filter
       </h1>
