@@ -18,6 +18,9 @@ function App() {
     }
   });
 
+  if (isLoading) return "Loading...";
+  if (error) return "An error has occurred: " + error.message;
+
   console.log("term", term);
   console.log("filteredUsers", filteredUsers);
   console.log("data", data);
