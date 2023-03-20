@@ -9,18 +9,18 @@ function App() {
 
   const [term, setTerm] = useState("");
 
-  const filteredUsers = data?.filter((user) => {
-    if (term !== "") {
-      return (
-        user.name.first.toLowerCase().includes(term.toLocaleLowerCase()) ||
-        user.name.last.toLowerCase().includes(term.toLowerCase())
-      );
-    }
-  });
+  // const filteredUsers = data?.filter((user) => {
+  //   if (term !== "") {
+  //     return (
+  //       user.name.first.toLowerCase().includes(term.toLocaleLowerCase()) ||
+  //       user.name.last.toLowerCase().includes(term.toLowerCase())
+  //     );
+  //   }
+  // });
 
-  console.log("term", term);
-  console.log("filteredUsers", filteredUsers);
-  console.log("data", data);
+  // console.log("term", term);
+  // console.log("filteredUsers", filteredUsers);
+  // console.log("data", data);
 
   return (
     <div className="container mx-auto">
@@ -28,13 +28,14 @@ function App() {
         My First Tanstak Query App - User Name Filter
       </h1>
       <Search term={term} setTerm={setTerm} />
-      <UserList
+      {/* <UserList
         usersData={
           !filteredUsers || (filteredUsers.length === 0 && term === "")
             ? data
             : filteredUsers
-        }
-      />
+        } */}
+      {/* /> */}
+      <UserList usersData={data} />
     </div>
   );
 }
