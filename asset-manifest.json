@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.2875fe9a.css",
-    "main.js": "/static/js/main.d3848805.js",
-    "index.html": "/index.html",
-    "main.2875fe9a.css.map": "/static/css/main.2875fe9a.css.map",
-    "main.d3848805.js.map": "/static/js/main.d3848805.js.map"
+    "main.css": "/first-tanstak-app/static/css/main.2875fe9a.css",
+    "main.js": "/first-tanstak-app/static/js/main.d3848805.js",
+    "index.html": "/first-tanstak-app/index.html",
+    "main.2875fe9a.css.map": "/first-tanstak-app/static/css/main.2875fe9a.css.map",
+    "main.d3848805.js.map": "/first-tanstak-app/static/js/main.d3848805.js.map"
   },
   "entrypoints": [
     "static/css/main.2875fe9a.css",
