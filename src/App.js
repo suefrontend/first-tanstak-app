@@ -21,10 +21,6 @@ function App() {
   if (isLoading) return "Loading...";
   if (error) return "An error has occurred: " + error.message;
 
-  console.log("term", term);
-  console.log("filteredUsers", filteredUsers);
-  console.log("data", data);
-
   return (
     <div className="container mx-auto">
       <h1 className="text-2xl font-bold text-center py-8">
@@ -38,7 +34,6 @@ function App() {
             : filteredUsers
         }
       />
-      {/* <UserList usersData={data} /> */}
     </div>
   );
 }
