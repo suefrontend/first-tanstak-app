@@ -6,7 +6,7 @@ This is my first project using Tanstak Query. It displays a list of random users
 
 To preview the app, please visit [here](https://suefrontend.github.io/first-tanstak-app/)
 
-## Error I encountered
+## Errors I encountered
 
 When I first opened the app on the Github Page, I encountered an error and couldn't preview it. This was due to the API taking some time to load the data, and me using the `.map` method before the data was available.
 
@@ -20,7 +20,7 @@ For instance, when using useEffect, you often have to create local state for err
 
 Additionally, you don't have to worry about second arguments! To ensure that the effect runs only when the specified dependencies change, useEffect requires you to pass in an array of dependencies as the second argument. With useQuery, there's no need to worry about it.
 
-## Disable `refetchOnWindowFocus` and `refetchOnMount` for a reason
+## Disable re-fetching methods
 
 I disabled `refetchOnWindowFocus` and `refetchOnMount` to prevent app from re-fetching data everytime the screen is focused. Otherwise it will re-generate a new set of random users, which makes users confused.
 
